@@ -1,0 +1,36 @@
+body { background-color: blue;
+      text-align: center;   }
+
+.letraazul {color: blue;
+            background-color: white;}
+
+#ColorAmarillo {color: yellow;}
+
+header {background-color: yellow;}
+nav {background-color: white;}
+section .letraazul {background-color: green;}
+aside {background-color: tomato;}
+footer {background-color: orange;}
+
+section{ float: left;
+        width: 48%;
+         height:250px;
+         overflow: auto;
+         margin: 1%;
+         border:5px solid red;
+         padding: 5px;
+         box-sizing: border-box;
+       }
+aside {width: 48%;
+        float:left;
+       height:250px;
+       overflow: auto;
+       margin: 1%;
+       border:2px dotted black;
+       box-sizing: border-box;
+      }
+footer {clear: both;}
+
+.iconow {position: fixed;
+         top: 75%;
+        right: 1%;}
